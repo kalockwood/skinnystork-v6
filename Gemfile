@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
 # Use sqlite3 as the database for Active Record
@@ -20,7 +19,7 @@ gem 'bootstrap-sass', '~> 3.2.0'
 # gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>=3.0.0'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -41,11 +40,11 @@ gem 'rolify'
 gem 'figaro'
 gem 'simple_form'
 
-gem 'designmodo-startup_framework-rails', '~>1.1.3.10'
+gem 'designmodo-startup_framework-rails', '~> 1.1.3.10.branch'
 gem 'therubyracer', platforms: :ruby
 gem 'less-rails'
 gem 'less-rails-bootstrap'
-gem 'jquery-ui-rails'
+gem 'jquery-ui-rails', '~>4.2.1'
 gem 'twitter-bootstrap-rails'
 
 

@@ -2,11 +2,16 @@
 <html>
 <head>
   <title>SkinnystorkV6</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
+  </head>
 <body>
+		<!-- for devise -->
+		<% if notice %>
+		<p class="alert alert-success"><%= notice %></p>
+		<% end %>
+		<% if alert %>
+		<p class="alert alert-danger"><%= alert %></p>
+		<% end %>
+		<!-- end devise section -->
 
 <%= yield %>
 
